@@ -84,3 +84,5 @@ resource "aws_sqs_queue_redrive_policy" "this" {
     maxReceiveCount     = var.max_receive_count
   })
 }
+
+# Drift detection test - 20260226-212513
