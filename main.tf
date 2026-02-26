@@ -86,3 +86,5 @@ resource "aws_sqs_queue_redrive_policy" "this" {
 }
 
 # Drift detection test - 20260226-212513
+
+# Drift test 2 - 20260226-212739
