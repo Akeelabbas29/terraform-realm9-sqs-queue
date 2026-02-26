@@ -88,3 +88,9 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "enable_monitoring" {
+  description = "Enable CloudWatch monitoring for the SQS queue"
+  type        = bool
+  default     = false
+}
